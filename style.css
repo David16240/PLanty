@@ -1,0 +1,272 @@
+/*
+Theme Name:   customizr-child
+Theme URI:    http://example.com/twenty-fifteen-child/
+Description:  Vantage Child Theme
+Author:       PatK
+Author URI:   http://www.adnpme.com/
+Template:     customizr
+Version:      1.0.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  customizr-child
+*/
+
+/* Mise en forme */
+body {
+  background-color: #ECE2DA;
+}
+
+.breadcrumbs,
+.trail-begin,
+.page-breadcrumbs,
+.entry-header-inner {
+  display: none;
+  visibility: hidden;
+}
+
+.page-id-146 {
+  background-color: green;
+}
+
+.team,
+.plante,
+.pense {
+  background-color: white;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.commander {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #dc9f96;
+  order: 3;
+  height: 100%;
+  width: 150px;
+  text-align: center;
+  border-radius: 10px;
+  color: red;
+}
+.commander:hover {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+#content,
+#main-wrapper {
+  padding: 0px;
+}
+
+.search-toggle_btn
+{
+  display: none;
+}
+
+.colophon__row
+{
+  display: none;
+}
+
+/* Accueil */
+#home-droite {
+  position: absolute;
+  top: 100px;
+  right: 162px;
+  z-index: -1;
+}
+
+#home-gauche {
+  position: absolute;
+  top: 100px;
+  right: -195px;
+}
+.gout {
+  font-size: 50px;
+}
+
+.pense {
+  height: 500px;
+}
+
+/* Nous rencontrer */
+
+
+.multy-canette {
+  margin-top: 100px;
+}
+
+section.post-content {
+  margin-bottom: -24px;
+}
+
+#houx {
+  position: absolute;
+  top: 400px;
+  left: -165px;
+  z-index: -1;
+}
+
+.rencontre-canette {
+  position: absolute;
+  top: -20px;
+}
+#houx-equipe
+{
+  position: absolute;
+  bottom: -40px;
+  right: 0;
+}
+
+/* Formulaire */
+.wpforms-submit-container
+{
+  text-align: center;
+}
+#wpforms-submit-49
+{
+  background-color: #dc9f96;
+}
+
+
+/* Commander */
+.container-nbr {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.bouton {
+  display: flex;
+  flex-direction: column;
+}
+
+.nombre {
+  width: 90px;
+  height: 64px;
+  border-radius: 50px;
+}
+
+.modif {
+  color: white;
+  background-color: #dc9f96;
+  height: 30px;
+  border: none;
+}
+
+.p {
+  border-radius: 0 10px 0 0;
+  position: absolute;
+  top: 10px;
+  left: 61px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.sup {
+  position: absolute;
+  bottom: 0;
+  left: 61px;
+  border-radius: 0 0 10px 0;
+  width: 30px;
+  cursor: pointer;
+}
+
+.ok {
+  width: 150px;
+  margin-left: 10px;
+  height: 64px;
+  background-color: #e0b9b4;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.container-form {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  color: white;
+}
+
+/* Formualire commander */
+
+.formulaire-commander {
+  margin-bottom: 50px;
+  color: white;
+}
+.white
+{
+  color: white;
+}
+.column {
+  flex: 1;
+  padding: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+.bord {
+  border-right: 2px solid;
+}
+
+.btn-commander
+{
+  background-color: #e0b9b4;
+}
+#nom, #prenom, #email, #adresse, #code_postal, #ville
+{
+  width: 504px;
+  margin: 0px;
+}
+#adresse, #code_postal, #ville
+{
+  margin-left: 20px;
+}
+
+
+/* footer */
+.widget__wrapper {
+  text-align: center;
+}
+
+#footer-widget-area {
+  padding: 0px;
+  padding-top: 50px;
+  margin: 0px;
+}
+.menu-accueil-container
+{ 
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+}
+header .container
+{
+  display: flex;
+  flex-direction: row;
+}
+#menu-accueil
+{
+  width: 816px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+}
+
+#menu-accueil li
+{
+  margin-left: 10px;
+}
+.riendutout
+{
+  text-shadow: none;
+}
